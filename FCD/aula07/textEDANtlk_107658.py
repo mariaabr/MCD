@@ -1,4 +1,5 @@
 # Maria Rafaela Abrunhosa - 107658
+import re
 import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
@@ -36,8 +37,10 @@ print("Count of missing values in each field: \n", df.isnull().sum()) # CONCLUSI
 df['sentences'] = df['Review'].apply(sent_tokenize)
 print("Sentences:", df['sentences'].head())
 
+df['cleanedSentences'] = df['Review'].apply(lambda x: re.sub(r'[^\w\s]', '', x.lower())) # remove pontuation
+
 # word tokenization > break-done sentences into words
-df['words'] = df['Review'].apply(word_tokenize)
+df['words'] = df['cleanedSentences'].apply(word_tokenize)
 print("Words:", df['words'].head())
 
 # method to remove stopwords
@@ -54,10 +57,85 @@ print("Stemmed Words:", df['stemmedWords'].head())
 print("Lemmatized Words:", df['lemmatizedWords'].head())
 
 # VISUALIZATION
+fig, axes = plt.subplots(1, 3, figsize=(12, 6))
+
 # review length plot distribution
+df['reviewLen'] = df['Review'].apply(len)
 
-reviewLen = df['Review'].apply(len)
+sns.histplot(df['reviewLen'], kde=True, color='skyblue', bins=30, ax=axes[0])
+# plt.title('Review Length Distribution')
+# plt.xlabel('Word Count')
+# plt.ylabel('Frequency')
+# plt.show()
 
-plt.subplot(1, 3, 1)
-sns.histplot(df['review_length'], kde=True, color='skyblue', bins=30)
-plt.title('Review Length Distribution')
+# words count plot distribution
+# df['wordsCount'] = df['filteredWords'].apply(len)
+df['wordsCount'] = df['words'].apply(len)
+
+sns.histplot(df['wordsCount'], kde=True, color='blue', bins=30, ax=axes[1])
+# plt.title('Word Count Distribution')
+# plt.xlabel('Word Count')
+# plt.ylabel('Frequency')
+# plt.show()
+
+# sentences length plot distribution
+df['sentencesLength'] = df['sentences'].apply(len)
+
+sns.histplot(df['sentencesLength'], kde=True, color='pink', bins=30, ax=axes[2])
+# plt.title('Sentences Length Distribution')
+# plt.xlabel('Sentence Count')
+# plt.ylabel('Frequency')
+# plt.show()
+
+axes[0].set_title('Review Length Distribution')
+axes[1].set_title('Word Count Distribution')
+axes[2].set_title('Sentences Length Distribution')
+
+axes[0].set_xlabel('Word Count')
+axes[0].set_ylabel('Frequency')
+axes[1].set_xlabel('Word Count')
+axes[1].set_ylabel('Frequency')
+axes[2].set_xlabel('Sentence Count')
+axes[2].set_ylabel('Frequency')
+
+plt.tight_layout()
+plt.show()
+
+# top 10 most frequently occuring words
+wordFrequency= df['stemmedWords'].explode().value_counts().head(10)
+wordFrequencyDf = pd.DataFrame({'word': wordFrequency.index, 'frequency': wordFrequency.values})
+
+plt.figure(figsize=(12, 6))
+sns.barplot(x='word', y='frequency', data=wordFrequencyDf)
+plt.title('Top 10 Most Frequent Words')
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+
+# top 10 most frequently occuring bi-grams and tri-grams
+# df['biGrams'] = df['Review'].apply(lambda x: ' '.join(x.split()))
+# df['triGrams'] = df['Review'].apply(lambda x: [' '.join(nltk.ngrams(word_tokenize(x), n)) for n in [2, 3]])
+
+df['biGrams'] = df['filteredWords'].apply(lambda x: [' '.join(gram) for gram in ngrams(x, 2)])
+df['triGrams'] = df['filteredWords'].apply(lambda x: [' '.join(gram) for gram in ngrams(x, 3)])
+
+# Create bi-grams DataFrame
+biGramsFrequency = df['biGrams'].explode().value_counts().head(10)
+biGramsDf = pd.DataFrame({'biGram': biGramsFrequency.index, 'frequency': biGramsFrequency.values})
+
+# Create tri-grams DataFrame
+triGramsFrequecy = df['triGrams'].explode().value_counts().head(10)
+triGramsDf = pd.DataFrame({'triGram': triGramsFrequecy.index, 'frequency': triGramsFrequecy.values})
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+
+sns.barplot(x='biGram', y='frequency', data=biGramsDf,  ax=axes[0])
+plt.xticks(rotation=90)
+
+sns.barplot(x='triGram', y='frequency', data=triGramsDf,  ax=axes[1])
+plt.xticks(rotation=90)
+
+axes[0].set_title('Top 10 Most Frequent BiGrams')
+axes[1].set_title('Top 10 Most Frequent TriGrams')
+plt.tight_layout()
+plt.show()
