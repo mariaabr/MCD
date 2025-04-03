@@ -1,3 +1,4 @@
 *.h5
-/dataset
-/data
+dataset/
+data/
+glove.6B.50d.txt
