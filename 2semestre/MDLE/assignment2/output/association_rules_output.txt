@@ -1,0 +1,240 @@
+(15777000) -> 271737000
+  Standardized Lift: 0.8162
+  Lift: 2.6587
+  Confidence: 0.8162
+  Interest: 0.5092
+
+(271737000) -> 15777000
+  Standardized Lift: 0.8161
+  Lift: 2.6584
+  Confidence: 0.8137
+  Interest: 0.5076
+
+(444814009) -> 15777000
+  Standardized Lift: 0.667
+  Lift: 1.0268
+  Confidence: 0.3143
+  Interest: 0.0082
+
+(15777000) -> 444814009
+  Standardized Lift: 0.667
+  Lift: 1.0268
+  Confidence: 0.667
+  Interest: 0.0174
+
+(162864005) -> 444814009
+  Standardized Lift: 0.6669
+  Lift: 1.0267
+  Confidence: 0.6669
+  Interest: 0.0173
+
+(444814009) -> 162864005
+  Standardized Lift: 0.6669
+  Lift: 1.0266
+  Confidence: 0.3242
+  Interest: 0.0084
+
+(444814009) -> 59621000
+  Standardized Lift: 0.6668
+  Lift: 1.0266
+  Confidence: 0.2706
+  Interest: 0.007
+
+(59621000) -> 444814009
+  Standardized Lift: 0.6668
+  Lift: 1.0265
+  Confidence: 0.6668
+  Interest: 0.0172
+
+(444814009) -> 271737000
+  Standardized Lift: 0.6665
+  Lift: 1.0261
+  Confidence: 0.315
+  Interest: 0.008
+
+(271737000) -> 444814009
+  Standardized Lift: 0.6665
+  Lift: 1.026
+  Confidence: 0.6665
+  Interest: 0.0169
+
+(40055000) -> 444814009
+  Standardized Lift: 0.6615
+  Lift: 1.0183
+  Confidence: 0.6615
+  Interest: 0.0119
+
+(444814009) -> 40055000
+  Standardized Lift: 0.6614
+  Lift: 1.0182
+  Confidence: 0.2201
+  Interest: 0.0039
+
+(10509002) -> 444814009
+  Standardized Lift: 0.6081
+  Lift: 1.0091
+  Confidence: 0.6555
+  Interest: 0.0059
+
+(444814009) -> 10509002
+  Standardized Lift: 0.6081
+  Lift: 1.0091
+  Confidence: 0.4023
+  Interest: 0.0036
+
+(195662009) -> 444814009
+  Standardized Lift: 0.5537
+  Lift: 1.0083
+  Confidence: 0.655
+  Interest: 0.0054
+
+(444814009) -> 195662009
+  Standardized Lift: 0.5537
+  Lift: 1.0082
+  Confidence: 0.457
+  Interest: 0.0037
+
+(162864005) -> 195662009
+  Standardized Lift: 0.458
+  Lift: 1.0104
+  Confidence: 0.458
+  Interest: 0.0047
+
+(195662009) -> 162864005
+  Standardized Lift: 0.458
+  Lift: 1.0104
+  Confidence: 0.3191
+  Interest: 0.0033
+
+(10509002) -> 195662009
+  Standardized Lift: 0.4574
+  Lift: 1.0091
+  Confidence: 0.4574
+  Interest: 0.0041
+
+(195662009) -> 10509002
+  Standardized Lift: 0.4574
+  Lift: 1.0091
+  Confidence: 0.4023
+  Interest: 0.0036
+
+(15777000, 444814009) -> 271737000
+  Standardized Lift: 0.8159
+  Lift: 2.6577
+  Confidence: 0.8159
+  Interest: 0.5089
+
+(271737000, 444814009) -> 15777000
+  Standardized Lift: 0.8141
+  Lift: 2.6597
+  Confidence: 0.8141
+  Interest: 0.508
+
+(162864005, 195662009) -> 444814009
+  Standardized Lift: 0.6681
+  Lift: 1.0285
+  Confidence: 0.6681
+  Interest: 0.0185
+
+(15777000, 271737000) -> 444814009
+  Standardized Lift: 0.6668
+  Lift: 1.0265
+  Confidence: 0.6668
+  Interest: 0.0172
+
+(10509002, 195662009) -> 444814009
+  Standardized Lift: 0.6594
+  Lift: 1.0151
+  Confidence: 0.6594
+  Interest: 0.0098
+
+(10509002, 444814009) -> 195662009
+  Standardized Lift: 0.4601
+  Lift: 1.0151
+  Confidence: 0.4601
+  Interest: 0.0068
+
+(162864005, 444814009) -> 195662009
+  Standardized Lift: 0.4588
+  Lift: 1.0122
+  Confidence: 0.4588
+  Interest: 0.0055
+
+(15777000, 271737000) -> 195662009
+  Standardized Lift: 0.4585
+  Lift: 1.0115
+  Confidence: 0.4585
+  Interest: 0.0052
+
+(271737000, 444814009) -> 195662009
+  Standardized Lift: 0.4584
+  Lift: 1.0113
+  Confidence: 0.4584
+  Interest: 0.0051
+
+(15777000, 444814009) -> 195662009
+  Standardized Lift: 0.4574
+  Lift: 1.0091
+  Confidence: 0.4574
+  Interest: 0.0041
+
+(195662009, 444814009) -> 10509002
+  Standardized Lift: 0.405
+  Lift: 1.0159
+  Confidence: 0.405
+  Interest: 0.0063
+
+(271737000, 444814009) -> 10509002
+  Standardized Lift: 0.4002
+  Lift: 1.0038
+  Confidence: 0.4002
+  Interest: 0.0015
+
+(15777000, 271737000) -> 10509002
+  Standardized Lift: 0.3994
+  Lift: 1.0018
+  Confidence: 0.3994
+  Interest: 0.0007
+
+(162864005, 444814009) -> 10509002
+  Standardized Lift: 0.3994
+  Lift: 1.0018
+  Confidence: 0.3994
+  Interest: 0.0007
+
+(15777000, 271737000) -> 59621000
+  Standardized Lift: 0.3452
+  Lift: 1.3096
+  Confidence: 0.3452
+  Interest: 0.0816
+
+(195662009, 444814009) -> 162864005
+  Standardized Lift: 0.3255
+  Lift: 1.0307
+  Confidence: 0.3255
+  Interest: 0.0097
+
+(10509002, 444814009) -> 162864005
+  Standardized Lift: 0.3219
+  Lift: 1.0193
+  Confidence: 0.3219
+  Interest: 0.0061
+
+(195662009, 444814009) -> 271737000
+  Standardized Lift: 0.3159
+  Lift: 1.029
+  Confidence: 0.3159
+  Interest: 0.0089
+
+(195662009, 444814009) -> 15777000
+  Standardized Lift: 0.3145
+  Lift: 1.0275
+  Confidence: 0.3145
+  Interest: 0.0084
+
+(10509002, 444814009) -> 271737000
+  Standardized Lift: 0.3133
+  Lift: 1.0205
+  Confidence: 0.3133
+  Interest: 0.0063
+

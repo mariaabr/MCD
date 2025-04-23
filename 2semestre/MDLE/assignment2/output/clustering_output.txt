@@ -1,0 +1,536 @@
+
+--- Clustering with k = 8 ---
+Cluster 0:
+  Size          = 379
+  Radius (r²)   = 5866667.8874
+  Diameter (d²) = 11764376.3456
+  Density       = 0.0000646023
+
+Cluster 1:
+  Size          = 2
+  Radius (r²)   = 4551155.9634
+  Diameter (d²) = 18204623.8537
+  Density       = 0.0000004394
+
+Cluster 2:
+  Size          = 7233
+  Radius (r²)   = 4481593.9976
+  Diameter (d²) = 8964427.3741
+  Density       = 0.0016139347
+
+Cluster 3:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 6: only 1 point(s) - ignored
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+
+--- Clustering with k = 9 ---
+Cluster 0:
+  Size          = 2
+  Radius (r²)   = 4551155.9634
+  Diameter (d²) = 18204623.8537
+  Density       = 0.0000004394
+
+Cluster 1:
+  Size          = 356
+  Radius (r²)   = 5207779.6165
+  Diameter (d²) = 10444898.8365
+  Density       = 0.0000683593
+
+Cluster 2:
+  Size          = 7233
+  Radius (r²)   = 4481593.9976
+  Diameter (d²) = 8964427.3741
+  Density       = 0.0016139347
+
+Cluster 3:
+  Size          = 23
+  Radius (r²)   = 4675475.5295
+  Diameter (d²) = 9775994.2890
+  Density       = 0.0000049193
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 6: only 1 point(s) - ignored
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+Cluster 8:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+
+--- Clustering with k = 10 ---
+Cluster 0:
+  Size          = 356
+  Radius (r²)   = 5207779.6165
+  Diameter (d²) = 10444898.8365
+  Density       = 0.0000683593
+
+Cluster 1:
+  Size          = 23
+  Radius (r²)   = 4675475.5295
+  Diameter (d²) = 9775994.2890
+  Density       = 0.0000049193
+
+Cluster 2:
+  Size          = 7233
+  Radius (r²)   = 4481593.9976
+  Diameter (d²) = 8964427.3741
+  Density       = 0.0016139347
+
+Cluster 3:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 6: only 1 point(s) - ignored
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+Cluster 8: only 1 point(s) - ignored
+Cluster 9: only 1 point(s) - ignored
+
+--- Clustering with k = 11 ---
+Cluster 0:
+  Size          = 23
+  Radius (r²)   = 4675475.5295
+  Diameter (d²) = 9775994.2890
+  Density       = 0.0000049193
+
+Cluster 1:
+  Size          = 306
+  Radius (r²)   = 4030084.4764
+  Diameter (d²) = 8086595.7363
+  Density       = 0.0000759289
+
+Cluster 2:
+  Size          = 7233
+  Radius (r²)   = 4481593.9976
+  Diameter (d²) = 8964427.3741
+  Density       = 0.0016139347
+
+Cluster 3:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 6: only 1 point(s) - ignored
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+Cluster 8: only 1 point(s) - ignored
+Cluster 9: only 1 point(s) - ignored
+Cluster 10:
+  Size          = 50
+  Radius (r²)   = 2519673.9830
+  Diameter (d²) = 5142191.8020
+  Density       = 0.0000198438
+
+
+--- Clustering with k = 12 ---
+Cluster 0:
+  Size          = 306
+  Radius (r²)   = 4030084.4764
+  Diameter (d²) = 8086595.7363
+  Density       = 0.0000759289
+
+Cluster 1:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 2:
+  Size          = 7233
+  Radius (r²)   = 4481593.9976
+  Diameter (d²) = 8964427.3741
+  Density       = 0.0016139347
+
+Cluster 3:
+  Size          = 13
+  Radius (r²)   = 3183372.6474
+  Diameter (d²) = 6897307.4027
+  Density       = 0.0000040837
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 6: only 1 point(s) - ignored
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+Cluster 8: only 1 point(s) - ignored
+Cluster 9: only 1 point(s) - ignored
+Cluster 10:
+  Size          = 50
+  Radius (r²)   = 2519673.9830
+  Diameter (d²) = 5142191.8020
+  Density       = 0.0000198438
+
+Cluster 11:
+  Size          = 10
+  Radius (r²)   = 1639693.4230
+  Diameter (d²) = 3643763.1621
+  Density       = 0.0000060987
+
+
+--- Clustering with k = 13 ---
+Cluster 0:
+  Size          = 51
+  Radius (r²)   = 2776366.4501
+  Diameter (d²) = 5663787.5582
+  Density       = 0.0000183693
+
+Cluster 1:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 2:
+  Size          = 7233
+  Radius (r²)   = 4481593.9976
+  Diameter (d²) = 8964427.3741
+  Density       = 0.0016139347
+
+Cluster 3:
+  Size          = 13
+  Radius (r²)   = 3183372.6474
+  Diameter (d²) = 6897307.4027
+  Density       = 0.0000040837
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 255
+  Radius (r²)   = 2931068.2239
+  Diameter (d²) = 5885215.7251
+  Density       = 0.0000869990
+
+Cluster 6: only 1 point(s) - ignored
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+Cluster 8: only 1 point(s) - ignored
+Cluster 9: only 1 point(s) - ignored
+Cluster 10:
+  Size          = 50
+  Radius (r²)   = 2519673.9830
+  Diameter (d²) = 5142191.8020
+  Density       = 0.0000198438
+
+Cluster 11:
+  Size          = 10
+  Radius (r²)   = 1639693.4230
+  Diameter (d²) = 3643763.1621
+  Density       = 0.0000060987
+
+Cluster 12:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+
+--- Clustering with k = 14 ---
+Cluster 0:
+  Size          = 7233
+  Radius (r²)   = 4481593.9976
+  Diameter (d²) = 8964427.3741
+  Density       = 0.0016139347
+
+Cluster 1:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 2:
+  Size          = 255
+  Radius (r²)   = 2931068.2239
+  Diameter (d²) = 5885215.7251
+  Density       = 0.0000869990
+
+Cluster 3:
+  Size          = 13
+  Radius (r²)   = 3183372.6474
+  Diameter (d²) = 6897307.4027
+  Density       = 0.0000040837
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 50
+  Radius (r²)   = 2633622.8773
+  Diameter (d²) = 5374740.5659
+  Density       = 0.0000189853
+
+Cluster 6: only 1 point(s) - ignored
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+Cluster 8: only 1 point(s) - ignored
+Cluster 9: only 1 point(s) - ignored
+Cluster 10:
+  Size          = 50
+  Radius (r²)   = 2519673.9830
+  Diameter (d²) = 5142191.8020
+  Density       = 0.0000198438
+
+Cluster 11:
+  Size          = 10
+  Radius (r²)   = 1639693.4230
+  Diameter (d²) = 3643763.1621
+  Density       = 0.0000060987
+
+Cluster 12:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 13: only 1 point(s) - ignored
+
+--- Clustering with k = 15 ---
+Cluster 0:
+  Size          = 4668
+  Radius (r²)   = 2587694.0246
+  Diameter (d²) = 5176496.9816
+  Density       = 0.0018039227
+
+Cluster 1:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 2:
+  Size          = 255
+  Radius (r²)   = 2931068.2239
+  Diameter (d²) = 5885215.7251
+  Density       = 0.0000869990
+
+Cluster 3:
+  Size          = 13
+  Radius (r²)   = 3183372.6474
+  Diameter (d²) = 6897307.4027
+  Density       = 0.0000040837
+
+Cluster 4:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 5:
+  Size          = 50
+  Radius (r²)   = 2633622.8773
+  Diameter (d²) = 5374740.5659
+  Density       = 0.0000189853
+
+Cluster 6:
+  Size          = 2565
+  Radius (r²)   = 3109955.6626
+  Diameter (d²) = 6222337.1876
+  Density       = 0.0008247706
+
+Cluster 7:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+
+Cluster 8: only 1 point(s) - ignored
+Cluster 9: only 1 point(s) - ignored
+Cluster 10:
+  Size          = 50
+  Radius (r²)   = 2519673.9830
+  Diameter (d²) = 5142191.8020
+  Density       = 0.0000198438
+
+Cluster 11:
+  Size          = 10
+  Radius (r²)   = 1639693.4230
+  Diameter (d²) = 3643763.1621
+  Density       = 0.0000060987
+
+Cluster 12:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 13: only 1 point(s) - ignored
+Cluster 14: only 1 point(s) - ignored
+
+--- Clustering with k = 16 ---
+Cluster 0:
+  Size          = 366
+  Radius (r²)   = 3848454.6013
+  Diameter (d²) = 7717996.6250
+  Density       = 0.0000951031
+
+Cluster 1:
+  Size          = 10
+  Radius (r²)   = 3334525.9950
+  Diameter (d²) = 7410057.7666
+  Density       = 0.0000029989
+
+Cluster 2:
+  Size          = 255
+  Radius (r²)   = 2931068.2239
+  Diameter (d²) = 5885215.7251
+  Density       = 0.0000869990
+
+Cluster 3:
+  Size          = 13
+  Radius (r²)   = 3183372.6474
+  Diameter (d²) = 6897307.4027
+  Density       = 0.0000040837
+
+Cluster 4:
+  Size          = 4664
+  Radius (r²)   = 2581779.3969
+  Diameter (d²) = 5164666.1408
+  Density       = 0.0018065060
+
+Cluster 5:
+  Size          = 50
+  Radius (r²)   = 2633622.8773
+  Diameter (d²) = 5374740.5659
+  Density       = 0.0000189853
+
+Cluster 6:
+  Size          = 2565
+  Radius (r²)   = 3109955.6626
+  Diameter (d²) = 6222337.1876
+  Density       = 0.0008247706
+
+Cluster 7:
+  Size          = 4
+  Radius (r²)   = 2091639.7261
+  Diameter (d²) = 5577705.9362
+  Density       = 0.0000019124
+
+Cluster 8: only 1 point(s) - ignored
+Cluster 9: only 1 point(s) - ignored
+Cluster 10:
+  Size          = 50
+  Radius (r²)   = 2519673.9830
+  Diameter (d²) = 5142191.8020
+  Density       = 0.0000198438
+
+Cluster 11:
+  Size          = 10
+  Radius (r²)   = 1639693.4230
+  Diameter (d²) = 3643763.1621
+  Density       = 0.0000060987
+
+Cluster 12:
+  Size          = 4
+  Radius (r²)   = 2772198.0617
+  Diameter (d²) = 7392528.1646
+  Density       = 0.0000014429
+
+Cluster 13: only 1 point(s) - ignored
+Cluster 14: only 1 point(s) - ignored
+Cluster 15:
+  Size          = 5
+  Radius (r²)   = 322553.5345
+  Diameter (d²) = 806383.8363
+  Density       = 0.0000155013
+

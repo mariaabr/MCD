@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Projector Interface with Relative Coordinates</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* background: black; */
+      background: transparent;
+    }
+    canvas {
+      width: 100vw;
+      height: 100vh;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gridCanvas"></canvas>
+
+  <script>
+    const canvas = document.getElementById('gridCanvas');
+    const ctx = canvas.getContext('2d');
+    const cols = 10, rows = 10;
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      drawGrid(rows, cols);
+    }
+
+    // grid with relative coordinates
+    function drawGrid(rows, cols) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      // ctx.strokeStyle = '#000000';
+      ctx.fillStyle = '#000000';
+      ctx.font = '10px sans-serif';
+
+      ctx.strokeStyle = 'rgba(0, 0, 0, 0.5)';
+      ctx.lineWidth = 1;
+
+        // vertical lines
+        for (let i = 0; i <= cols; i++) {
+            const x = (i / cols) * canvas.width;
+            ctx.beginPath();
+            ctx.moveTo(x, 0);
+            ctx.lineTo(x, canvas.height);
+            ctx.stroke();
+        }
+
+        // horizontal lines
+        for (let j = 0; j <= rows; j++) {
+            const y = (j / rows) * canvas.height;
+            ctx.beginPath();
+            ctx.moveTo(0, y);
+            ctx.lineTo(canvas.width, y);
+            ctx.stroke();
+        }
+
+      for (let i = 0; i <= cols; i++) {
+        for (let j = 0; j <= rows; j++) {
+          let x = (i / cols) * canvas.width;
+          let y = (j / rows) * canvas.height;
+          ctx.beginPath();
+          ctx.arc(x, y, 3, 0, 2 * Math.PI);
+          ctx.fill();
+          ctx.fillText(`(${(i / cols).toFixed(2)}, ${(j / rows).toFixed(2)})`, x + 5, y - 5);
+        }
+      }
+    }
+
+    // draw red code with relative coordinates
+    function drawRedDot(relX, relY) {
+    // TODO: adjust coordinates to the camera position
+      const x = relX * canvas.width;
+      const y = relY * canvas.height;
+
+      ctx.beginPath();
+      ctx.arc(x, y, 12, 0, 2 * Math.PI);
+      ctx.fillStyle = 'red';
+      ctx.fill();
+    }
+
+    // test point
+    const testPoint = { x: 0.3, y: 0.6 };
+
+// initialize functions
+window.addEventListener('resize', () => {
+  resizeCanvas();
+  drawRedDot(testPoint.x, testPoint.y); // draw point after resize
+});
+
+resizeCanvas();
+drawRedDot(testPoint.x, testPoint.y);
+
+// to update dinamically (ex: socket or API)
+// drawRedDot(newX, newY);
+</script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+=== MÉDIAS PARA k = 8 ===
+Tamanho: 1000.000
+Raio: 2702921.849
+Diametro: 5416781.594
+Densidade: 0.001
+
+=== MÉDIAS PARA k = 9 ===
+Tamanho: 888.889
+Raio: 2682095.413
+Diametro: 5375395.397
+Densidade: 0.001
+
+=== MÉDIAS PARA k = 10 ===
+Tamanho: 800.000
+Raio: 2549378.421
+Diametro: 5112009.477
+Densidade: 0.001
+
+=== MÉDIAS PARA k = 11 ===
+Tamanho: 727.273
+Raio: 2364047.994
+Diametro: 4740341.724
+Densidade: 0.001
+
+=== MÉDIAS PARA k = 12 ===
+Tamanho: 666.667
+Raio: 2251153.021
+Diametro: 4518274.883
+Densidade: 0.001
+
+=== MÉDIAS PARA k = 13 ===
+Tamanho: 615.385
+Raio: 2156008.882
+Diametro: 4327909.439
+Densidade: 0.000
+
+=== MÉDIAS PARA k = 14 ===
+Tamanho: 571.429
+Raio: 2562867.516
+Diametro: 5170066.882
+Densidade: 0.000
+
+=== MÉDIAS PARA k = 15 ===
+Tamanho: 533.333
+Raio: 2434797.809
+Diametro: 4911250.446
+Densidade: 0.000
+
+=== MÉDIAS PARA k = 16 ===
+Tamanho: 500.000
+Raio: 2346017.120
+Diametro: 4732001.770
+Densidade: 0.000
+
